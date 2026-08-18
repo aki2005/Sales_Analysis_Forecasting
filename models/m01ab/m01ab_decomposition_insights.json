@@ -1,0 +1,22 @@
+{
+    "target_drug": "M01AB",
+    "seasonality": {
+        "day_of_week_means": {
+            "Friday": 4.78,
+            "Monday": 5.05,
+            "Saturday": 5.76,
+            "Sunday": 5.31,
+            "Thursday": 4.56,
+            "Tuesday": 5.07,
+            "Wednesday": 4.79
+        },
+        "peak_sales_day": "Saturday",
+        "trough_sales_day": "Thursday",
+        "weekend_surge_percentage": 26.31
+    },
+    "inventory_control": {
+        "residual_std_dev": 2.46,
+        "dynamic_safety_stock_units": 5,
+        "latest_macro_trend_units_per_day": 4.72
+    }
+}
